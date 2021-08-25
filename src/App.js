@@ -4,7 +4,11 @@ import './App.css';
 import Header from './components/Header';
 import Recipes from './components/Recipes';
 import Navbar from './components/Navbar';
-import {BrowserRouter as Router,Switch,Route} from "react-router-dom"
+import Home from './components/pages/Home';
+import AboutUs from './components/pages/AboutUs';
+import ContactUs from './components/pages/ContactUs';
+import FoodStallers from './components/pages/FoodStallers';
+import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 
 
 function App() {
@@ -40,22 +44,29 @@ function App() {
 
   }
   return (
-    <div className="App">
+    <>
       <Router>
       <Navbar />
       <Switch>
-        <Route path='/' exact />
+        <Route path='/' exact component= {Home}/>
+        <Route path='/about-us' component={AboutUs}/>
+        <Route path='/contact-us' component={ContactUs} />
+        <Route path='/food-stall' component={FoodStallers} />
+        
       </Switch>
       </Router>
-      <Header search={search} onInputChange={onInputChange} onSearchClick={onSearchClick}/>{/*      this is a shortcut  */}
+     
       
+      <Header search={search} onInputChange={onInputChange} onSearchClick={onSearchClick}/>{/*      this is a shortcut  */}
+     
       
 
       <div className="container">
         <Recipes recipes={recipes} />
+        
       </div>
 
-    </div>
+    </>
   );
 }
 

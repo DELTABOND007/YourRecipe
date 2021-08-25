@@ -28,7 +28,7 @@ function Navbar () {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" classname=" navbar-logo" onClick={closeMobileMenu}>
+                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                         YR<i className="fas fa-utensils" />
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
@@ -42,17 +42,17 @@ function Navbar () {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to="/" className='nav-links' onClick={closeMobileMenu}>
+                            <Link to="/about-us" className='nav-links' onClick={closeMobileMenu}>
                             About Us
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to="/" className='nav-links' onClick={closeMobileMenu}>
+                            <Link to="/contact-us" className='nav-links' onClick={closeMobileMenu}>
                             Contact Us
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to="/" className='nav-links' onClick={closeMobileMenu}>
+                            <Link to="/food-stall" className='nav-links' onClick={closeMobileMenu}>
                             FoodStallers
                             </Link>
                         </li>

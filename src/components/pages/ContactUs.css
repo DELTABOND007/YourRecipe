@@ -1,0 +1,19 @@
+.contact-us{
+    height: 60rem;
+    width: 100vw;
+    background: black;
+    color:white;
+    display: block;
+}
+.heading{ font-size: 7rem;
+    margin-left:1rem;
+    margin-bottom: 0px;
+    margin-top: 0rem;
+    color: white;
+
+}
+.container .row{
+    height: 35rem;
+
+    
+}

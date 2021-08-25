@@ -1,8 +1,11 @@
 import React from "react";
+import App from "../App";
+
 
 const Header = (props) => {
     const { search, onInputChange, onSearchClick } = props;
-    return (<div className="jumbotron">
+    return (
+    <div className="jumbotron">
         
         <h1 className="display-1">
             <i class="icon ion-md-restaurant brand-icon"></i>Your Recipe
@@ -21,8 +24,10 @@ const Header = (props) => {
             </div>
         </div>
         
+        
        
     </div>
+    
     
     );
 

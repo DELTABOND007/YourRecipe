@@ -1,0 +1,58 @@
+.about-us{
+    height: 85rem;
+    width: 100vw;
+    background: black;
+    color:white;
+    display: block;
+    margin: 0;
+  }
+  .heading{
+      font-size: 7rem;
+      margin-left:1rem;
+      margin-bottom: 0px;
+      margin-top: 0rem;
+  }
+  .para{
+      font-size:27px;
+      font-style: italic;
+      
+  }
+  .para1{
+      font-size: 27px;
+    
+  }
+  
+iframe {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+iframe:last-child {
+  padding-right: 20px;
+}
+
+.about-us .videos {
+  transform: translateX(-50px);
+  display: flex;
+  overflow-x: scroll;
+  width: 100vw;
+  background-color: #000000;
+}
+
+.videos::-webkit-scrollbar {
+  height: 10px;
+  outline: none;
+}
+
+.videos::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: white;
+}
+
+  
+  @media (max-width: 500px) {
+    .videos::-webkit-scrollbar {
+      display: none;
+    }
+  }

@@ -5,6 +5,7 @@
   background-color:rebeccapurple;
   padding: 80px;
   text-align: center;
+  
 }
 .jumbotron h1{
   font-size: 70px;
@@ -24,18 +25,18 @@
   position: relative;
   width: auto;
 }
- 
-/* *{
+
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'PT Sans', sans-serif;
-} */
-/* 
+} 
+ 
 .home,
-.services,
-.products,
-.sign-up {
+.about-us,
+.contact-us,
+.food-stall{
   display: flex;
   height: 90vh;
   align-items: center;
@@ -43,29 +44,29 @@
   font-size: 3rem;
 }
 
-.services {
-  background-image: url('/images/img-2.jpg');
+.about-us{
+  /* background-image: url('/images/img-2.jpg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: rgb(230, 10, 10);
   font-size: 100px;
 }
 
-.products {
-  background-image: url('/images/img-1.jpg');
+.contact-us{
+  /* background-image: url('/images/img-1.jpg'); */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
-  color: #fff;
+  color:rgb(230, 10, 10);
   font-size: 100px;
 }
 
-.sign-up {
-  background-image: url('/images/img-8.jpg');
+.food-stall{
+  /* background-image: url('/images/img-8.jpg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color:rgb(230, 10, 10);
   font-size: 100px;
-}  */
+}  
