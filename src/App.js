@@ -57,7 +57,7 @@ function App() {
       </Router>
      
       
-      <Header search={search} onInputChange={onInputChange} onSearchClick={onSearchClick}/>{/*      this is a shortcut  */}
+      <Header search={search} onInputChange={onInputChange} onSearchClick={onSearchClick}/>    
      
       
 

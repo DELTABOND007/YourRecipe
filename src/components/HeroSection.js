@@ -21,9 +21,10 @@ function HeroSection() {
           <a className="link style" href="Header.js">GET STARTED</a>
           
         </Button>
-
+        
         
           </div>
+          
     </div>
   );
 }

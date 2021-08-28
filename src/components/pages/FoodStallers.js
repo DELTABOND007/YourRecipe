@@ -3,6 +3,7 @@ import '../../App.css';
 import "./FoodStallers.css";
 import { Carousel } from 'react-bootstrap';
 
+// import image1 from './../assets/images/1.jpg';
 export default function FoodStallers(){
     return (
 
@@ -11,7 +12,7 @@ export default function FoodStallers(){
       <Carousel.Item>
          <img
           className="d-block"
-          src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWF8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+          //src={image1}
           alt="First slide"
         /> 
         <Carousel.Caption>
@@ -42,9 +43,10 @@ export default function FoodStallers(){
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    
+    
      </div>
-     )
-
+ )
     
     
 }
