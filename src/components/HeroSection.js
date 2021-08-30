@@ -12,15 +12,16 @@ function HeroSection() {
       <h1>Get Your Dishes Ready</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
-        <Button
+        <a href="Header.js"><Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
           >
          
-          <a className="link style" href="Header.js">GET STARTED</a>
+        GET STARTED
           
         </Button>
+        </a>
         
         
           </div>

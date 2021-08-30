@@ -1,11 +1,13 @@
 import React from 'react'
 import '../../App.css';
 import "./FoodStallers.css";
+import Footer from "../Footer";
 import { Carousel } from 'react-bootstrap';
 
 // import image1 from './../assets/images/1.jpg';
 export default function FoodStallers(){
     return (
+      <>
 
      <div className="food-stall">
      <Carousel fade={false} pause={false} controls={true}>
@@ -46,6 +48,8 @@ export default function FoodStallers(){
     
     
      </div>
+     <Footer/>
+     </>
  )
     
     

@@ -1,5 +1,6 @@
 import emailjs from "emailjs-com";
 import React from 'react';
+import Footer from "../Footer";
 import "./ContactUs.css";
 
 export default function ContactUs() {
@@ -16,7 +17,7 @@ export default function ContactUs() {
         e.target.reset()
     }
 
-    return(
+    return(<>
         <div className="contact-us">
             <h1 className="heading"> ContactUs</h1>
             <div className="container">
@@ -41,5 +42,7 @@ export default function ContactUs() {
                 </form>
             </div>
         </div>
+        <Footer/>
+        </>
     )
 }
