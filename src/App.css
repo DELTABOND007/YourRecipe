@@ -45,7 +45,7 @@
 }
 
 .about-us{
-  /* background-image: url('/images/img-2.jpg'); */
+
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -54,7 +54,6 @@
 }
 
 .contact-us{
-  /* background-image: url('/images/img-1.jpg'); */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -63,10 +62,35 @@
 }
 
 .food-stall{
-  /* background-image: url('/images/img-8.jpg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color:rgb(230, 10, 10);
   font-size: 100px;
 }  
+/* 
+@media screen and (min-width: 601px) {
+  h1.display1{
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  h1.display1{
+    font-size: 3vw;
+  }
+} */
+
+@media screen and (max-width: 960px) {
+  .jumbotron > h1 {
+    font-size: 70px;
+  
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron > h1 {
+    font-size: 50px;
+    
+  }
+}

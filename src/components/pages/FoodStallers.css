@@ -3,15 +3,34 @@
     width: 100vw;
     background: black;
     color:white;
+    display: block;
+    position: relative;
+    
     
 }
-.d-block{
 
-    width: 70w;
-    height: 90vh;
-   
-   
+.CarouselContainer{
+    margin-top: 2rem;
+    width: 100vw;
+    height: 70vh;
 }
+
+img{
+    display: contents;
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    align-content: center;
+}
+
+/* .heading{
+    font-size: 7rem;
+    margin-left:1rem;
+    margin-bottom: 0px;
+    margin-top: 0rem;
+} */
+
+  
 .address{
     font-size: 1.2rem;
     color: rgb(196, 13, 68);
@@ -20,8 +39,22 @@
     font-size: 1rem;
 }
 
-@media only screen and (max-width: 860px) {
+
+
+@media only screen and (max-width: 90px) {
     img {
       width: 100%;
     }
   }
+
+  @media screen and (min-width: 100px) {
+    h1.heading {
+      font-size: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    h1.heading {
+      font-size: 60px;
+    }
+}

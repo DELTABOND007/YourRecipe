@@ -4,12 +4,14 @@ import "./FoodStallers.css";
 import Footer from "../Footer";
 import { Carousel } from 'react-bootstrap';
 
-// import image1 from './../assets/images/1.jpg';
 export default function FoodStallers(){
     return (
-      <>
+      <><div className="food-stall">
+      <h1 className="heading">FoodStallers</h1>
 
-     <div className="food-stall">
+
+      <div className="CarouselContainer">
+        
      <Carousel fade={false} pause={false} controls={true}>
       <Carousel.Item>
          <img
@@ -31,8 +33,9 @@ export default function FoodStallers(){
           alt="second slide"
         />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p></p>
+         
+        <p className="address">Address:Prabodhan Thakeray Natya Mandir Parking,Chamunda Circle,Borivali West,Mumbai,Maharashtra 400092</p>
+          <p className="phone">Phone:090226 86134</p>
         </Carousel.Caption>
       </Carousel.Item>
       
@@ -43,8 +46,9 @@ export default function FoodStallers(){
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p></p>
+         
+        <p className="address">Address:Shop no. 5, Gupta Chawl, Chincholi Bunder Road,Malad West,Mumbai,Maharashtra 400064</p>
+          <p className="phone">Phone:098673 02523</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -55,8 +59,8 @@ export default function FoodStallers(){
           alt="Fourth slide"
         />
         <Carousel.Caption>
-          <h3>Fourth slide label</h3>
-          <p></p>
+        <p className="address">Address:Shop no. 4,Nr.Ramapir Mandir,Shivanandj Maharaj Marg,Chinchpada,Borivali East,Mumbai,Maharashtra 400064</p>
+          <p className="phone">Phone:098198 73001</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -67,8 +71,8 @@ export default function FoodStallers(){
           alt="Fifth slide"
         />
         <Carousel.Caption>
-          <h3>Fifth slide label</h3>
-          <p></p>
+        <p className="address">Address:Shop no 1, Sejal Apartment, Charkop Road, Charkop Gaon, Kandivali West,Mumbai,Maharashtra 400067</p>
+          <p className="phone">Phone:099694 73769</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -79,8 +83,8 @@ export default function FoodStallers(){
           alt="Sixth slide"
         />
         <Carousel.Caption>
-          <h3>Sixth slide label</h3>
-          <p></p>
+        <p className="address">Address:Near Rajasthan Samelan Educational Trust, Mandalik Nagar,Sunder Nagar, Malad West,Mumbai,Maharashtra 400064</p>
+          <p className="phone"></p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -91,8 +95,8 @@ export default function FoodStallers(){
           alt="Seventh slide"
         />
         <Carousel.Caption>
-          <h3>Seventh slide label</h3>
-          <p></p>
+        <p className="address">Address:New Link Road,Maharashtra Nagar,Kandivali West, Mumbai, Maharashtra 400067</p>
+        
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -103,8 +107,8 @@ export default function FoodStallers(){
           alt="Eight slide"
         />
         <Carousel.Caption>
-          <h3>Eight slide label</h3>
-          <p></p>
+        <p className="address">Address:7/005, Chhatrapati Shivaji Raje Complex,Kandivali West,Mumbai,Maharashtra 400067</p>
+          <p className="phone">Phone:070455 38424</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -115,8 +119,8 @@ export default function FoodStallers(){
           alt="Ninth slide"
         />
         <Carousel.Caption>
-          <h3>Ninth slide label</h3>
-          <p></p>
+        <p className="address">Address:Soni Sarovar Tower CHS,Shop no 7, Vraj Deep, Chandavarkar RoadRoad,Borivali West,Mumbai,Maharashtra 400092</p>
+          <p className="phone">Phone:081691 71627</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -127,11 +131,12 @@ export default function FoodStallers(){
           alt="Tenth slide"
         />
         <Carousel.Caption>
-          <h3>Tenth slide label</h3>
-          <p></p>
+        <p className="address">Address:Abdul Hamid St,Old Collector Compound,Malwani,Malad West,Mumbai,Maharashtra 400095</p>
+        
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
 
     
     
