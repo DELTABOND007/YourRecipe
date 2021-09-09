@@ -6,8 +6,12 @@ import { Carousel } from 'react-bootstrap';
 
 export default function FoodStallers(){
     return (
+<<<<<<< HEAD
       <><div className="food-stall">
       <h1 className="heading">FoodStallers</h1>
+=======
+      <>
+>>>>>>> 91cbc608766d47d97d74ea73112953228ae0e4f1
 
 
       <div className="CarouselContainer">
@@ -135,8 +139,95 @@ export default function FoodStallers(){
         
         </Carousel.Caption>
       </Carousel.Item>
+
+      <Carousel.Item >
+        <img
+          className="d-block"
+          src="/images/image4.png"
+          alt="Fourth slide"
+        />
+        <Carousel.Caption>
+          <h3>Fourth slide label</h3>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item >
+        <img
+          className="d-block"
+          src="/images/image5.png"
+          alt="Fifth slide"
+        />
+        <Carousel.Caption>
+          <h3>Fifth slide label</h3>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item >
+        <img
+          className="d-block"
+          src="/images/image6.png"
+          alt="Sixth slide"
+        />
+        <Carousel.Caption>
+          <h3>Sixth slide label</h3>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item >
+        <img
+          className="d-block"
+          src="/images/image7.png"
+          alt="Seventh slide"
+        />
+        <Carousel.Caption>
+          <h3>Seventh slide label</h3>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item >
+        <img
+          className="d-block"
+          src="/images/image8.png"
+          alt="Eight slide"
+        />
+        <Carousel.Caption>
+          <h3>Eight slide label</h3>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item >
+        <img
+          className="d-block"
+          src="/images/image9.png"
+          alt="Ninth slide"
+        />
+        <Carousel.Caption>
+          <h3>Ninth slide label</h3>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item >
+        <img
+          className="d-block"
+          src="/images/image10.png"
+          alt="Tenth slide"
+        />
+        <Carousel.Caption>
+          <h3>Tenth slide label</h3>
+          <p></p>
+        </Carousel.Caption>
+      </Carousel.Item>
     </Carousel>
+<<<<<<< HEAD
     </div>
+=======
+>>>>>>> 91cbc608766d47d97d74ea73112953228ae0e4f1
 
     
     
