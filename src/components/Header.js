@@ -1,5 +1,5 @@
 import React from "react";
-import App from "../App";
+
 
 
 const Header = (props) => {
@@ -13,8 +13,8 @@ const Header = (props) => {
         </h1>
         <div className="input-group input w-50 mx-auto">
             <input type="text" class="form-control" placeholder="Search Your Recipe..."
-                value={props.search}
-                onChange={props.onInputChange}/>
+                value={search}
+                onChange={onInputChange}/>
 
             <div className="input-group-append ">
                 <button className="btn btn-dark"  onClick={onSearchClick}>

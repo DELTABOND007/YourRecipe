@@ -56,3 +56,27 @@ iframe:last-child {
       display: none;
     }
   }
+  
+  
+  @media screen and (min-width: 100px) {
+    p.para{
+      font-size:2vw;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    p.para{
+      font-size: 5vw;
+    }
+}
+@media screen and (min-width: 100px) {
+  p.para1{
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  p.para1{
+    font-size: 5vw;
+  }
+}

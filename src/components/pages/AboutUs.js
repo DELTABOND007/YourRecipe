@@ -14,7 +14,7 @@ export default function AboutUs(){
             <br/>
             <iframe width="270" height="200" src="https://www.youtube.com/embed/_4aS5vXNLVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <iframe width="270" height="200" src="https://www.youtube.com/embed/k9oV97JEvTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="270" height="200" src="https://www.youtube.com/embed/EZ-MXloBm1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="290" height="200" src="https://www.youtube.com/embed/EZ-MXloBm1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </p>
         </div>
         <Footer/>

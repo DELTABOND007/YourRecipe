@@ -17,8 +17,8 @@ function App() {
   const [search, setSearch] = useState("");
   const [recipes, setRecipes] = useState([]);
 
-  const APP_ID = "6c20b451";
-  const APP_KEY = "e8abd9fd084655880e6a2f1e4e4c24df";
+  const APP_ID = "7d40bcc5";
+  const APP_KEY = "31acdc5d2a12f7e7e4dae49979a85141";
 
   useEffect(() => {
     getRecipes();
@@ -56,14 +56,12 @@ function App() {
       </Switch>
       </Router>
      
-      
+      <div className="App">
       <Header search={search} onInputChange={onInputChange} onSearchClick={onSearchClick}/>    
-     
-      
-
-      <div className="container">
-        <Recipes recipes={recipes} />
+     <div className="container">
+      <Recipes recipes={recipes} />
         
+      </div>
       </div>
 
     </>

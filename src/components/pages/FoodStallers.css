@@ -4,9 +4,7 @@
     background: black;
     color:white;
     display: block;
-    position: relative;
-    
-    
+    position: relative;    
 }
 
 .CarouselContainer{
@@ -15,21 +13,12 @@
     height: 70vh;
 }
 
-img{
-    display: contents;
+img.d-block{
     width: 80vw;
     height: 100vh;
     margin: auto;
     align-content: center;
 }
-
-/* .heading{
-    font-size: 7rem;
-    margin-left:1rem;
-    margin-bottom: 0px;
-    margin-top: 0rem;
-} */
-
   
 .address{
     font-size: 1.2rem;
