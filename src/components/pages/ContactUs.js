@@ -2,8 +2,19 @@ import emailjs from "emailjs-com";
 import React from 'react';
 import Footer from "../Footer";
 import "./ContactUs.css";
+import Swal from 'sweetalert2';
+window.Swal = Swal;
+
 
 export default function ContactUs() {
+    const validation=()=>{
+        Swal.fire(
+            'Good job!',
+            'E-mail Sended,We will Contact You Soon',
+            'success'
+          )
+        
+    }
 
     function sendEmail(e) {
         e.preventDefault();
@@ -36,7 +47,7 @@ export default function ContactUs() {
                             <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
                         </div>
                         <div className="col-8 pt-3 mx-auto">
-                            <input type="submit" className="btn btn-info" value="Send Message"></input>
+                            <input type="submit" className="btn btn-info" value="Send Message" onClick={validation}></input>
                         </div>
                     </div>
                 </form>

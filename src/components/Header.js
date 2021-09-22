@@ -3,6 +3,7 @@ import React from "react";
 const Header = (props) => {
     const { search, onInputChange, onSearchClick } = props;
     return (
+        <>
     <div className="jumbotron">
         <h1 className="display-1">
             <i class="icon ion-md-restaurant brand-icon"></i>YourRecipe<i class="icon ion-md-restaurant brand-icon"></i>
@@ -19,6 +20,7 @@ const Header = (props) => {
             </div>
         </div>
     </div>
+    </>
     );
 }
 export default Header;
