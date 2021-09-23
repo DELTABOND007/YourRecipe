@@ -1,19 +1,16 @@
-import React, { useState, useEffect } from 'react';
-import Axios from 'axios';
-import './App.css';
-import Header from './components/Header';
-import Recipes from './components/Recipes';
-import Navbar from './components/Navbar';
-import Home from './components/pages/Home';
-import AboutUs from './components/pages/AboutUs';
-import ContactUs from './components/pages/ContactUs';
-import FoodStallers from './components/pages/FoodStallers';
-import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
-
+import React, { useState, useEffect } from "react";
+import Axios from "axios";
+import "./App.css";
+import Header from "./components/Header";
+import Recipes from "./components/Recipes";
+import Navbar from "./components/Navbar";
+import Home from "./components/pages/Home";
+import AboutUs from "./components/pages/AboutUs";
+import ContactUs from "./components/pages/ContactUs";
+import FoodStallers from "./components/pages/FoodStallers";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
-
-
   const [search, setSearch] = useState("");
   const [recipes, setRecipes] = useState([]);
 
@@ -25,46 +22,41 @@ function App() {
   }, []);
 
   const getRecipes = async () => {
-    const result = await Axios.get(`https://api.edamam.com/search?q=${search}&app_id=${APP_ID}&app_key=${APP_KEY}`);
+    const result = await Axios.get(
+      `https://api.edamam.com/search?q=${search}&app_id=${APP_ID}&app_key=${APP_KEY}`
+    );
     setRecipes(result.data.hits);
-
-
-  }
-
-
-  const onInputChange = (e) => {  //e stands for event
-    setSearch(e.target.value);
-
-
   };
 
-  const onSearchClick=()=>{
+  const onInputChange = (e) => {
+    //e stands for event
+    setSearch(e.target.value);
+  };
+
+  const onSearchClick = () => {
     getRecipes();
-
-
-  }
+  };
   return (
-    <>
+    <div className="App">
       <Router>
-      <Navbar />
-      <Switch>
-        <Route path='/' exact component= {Home}/>
-        <Route path='/about-us' component={AboutUs}/>
-        <Route path='/contact-us' component={ContactUs} />
-        <Route path='/food-stall' component={FoodStallers} />
-        
-      </Switch>
+        <Navbar />
+        <Switch>
+          <Route path="/about-us" component={AboutUs} />
+          <Route path="/contact-us" component={ContactUs} />
+          <Route path="/food-stall" component={FoodStallers} />
+          <Route path="/" exact component={Home} />
+        </Switch>
       </Router>
-     
-      <div className="App">
-      <Header search={search} onInputChange={onInputChange} onSearchClick={onSearchClick}/>    
-     <div className="container">
-      <Recipes recipes={recipes} />
-        
-      </div>
-      </div>
 
-    </>
+      <Header
+        search={search}
+        onInputChange={onInputChange}
+        onSearchClick={onSearchClick}
+      />
+      <div className="container">
+        <Recipes recipes={recipes} />
+      </div>
+    </div>
   );
 }
 

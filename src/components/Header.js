@@ -6,10 +6,10 @@ const Header = (props) => {
         <>
     <div className="jumbotron">
         <h1 className="display-1">
-            <i class="icon ion-md-restaurant brand-icon"></i>YourRecipe<i class="icon ion-md-restaurant brand-icon"></i>
+            <i class="icon ion-md-restaurant brand-icon"></i>YourRecipe<i className="icon ion-md-restaurant brand-icon"></i>
         </h1>
         <div className="input-group input w-50 mx-auto">
-            <input type="text" class="form-control" placeholder="Search Your Recipe..."
+            <input type="text" className="form-control" placeholder="Search Your Recipe..."
             value={search}
             onChange={onInputChange}
             />
